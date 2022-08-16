@@ -1,4 +1,4 @@
-![Header](https://raw.githubusercontent.com/ortegavan/work-lazelemon/main/site/img/readme-header.jpg "Header")
+![Header](https://github.com/ortegavan/work-lazelemon/blob/5a83c04e37202be3c296d427b07b599af6b637bd/img/readme-header.jpg "Header")
 
 <h2 align="center">
     Laze Lemon 💙
