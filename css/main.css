@@ -1,0 +1,256 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/* estilos gerais */
+* {
+	padding: 0;
+	margin: 0;
+	outline: none;
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	font-size: 1.1rem;
+	color: #333;
+}
+
+section {
+	margin: 50px;
+}
+
+a, a:link {
+	color: #666;
+	text-decoration: none;
+}
+
+	a:hover {
+		color: #333;
+		text-decoration: underline;
+	}
+
+.clear {
+	clear: both;
+}
+
+/* cores */
+.bg-cinza {
+	background-color: #eaeaea;
+}
+
+.cinza {
+	color: #333;
+}
+
+.cinza-claro {
+	color: #999;
+}
+
+.amarelo {
+	color: #8aacf9;
+}
+
+.branco {
+	color: #fff;
+}
+
+/* cabeçalhos */
+h1 {
+	font-size: 2.8rem;
+}
+
+h2 {
+	font-size: 2.3rem;
+}
+
+h3 {
+	font-size: 1.9rem;
+}
+
+h4 {
+	font-size: 1.6rem;
+}
+
+h5 {
+	font-size: 1.3rem;
+}
+
+h6 {
+	font-size: 1.1rem;
+}
+
+/* navegação e topo */
+.charm {
+	border-top: solid 3px #8aacf9;
+	width: 100%;
+}
+
+.jumbotron {
+	height: 740px;
+	background-image: url("../img/001.jpg");
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.jumbotron-text {
+	margin: auto;
+	margin-top: 10rem;
+	width: 100%;
+}
+
+.scrolled {
+	background-color: #8aacf9 !important;
+}
+
+	.scrolled .nav-link {
+		color: #fff !important;
+	}
+
+	.scrolled .navbar-toggler {
+		color: #fff !important;
+	}
+
+.top {
+	font-size: 1.14rem;
+	border-radius: 50%;
+}
+
+.social {
+	font-size: 2.2rem !important;
+}
+
+/* barra de expertise */
+.fab {
+	font-size: 1.3rem;
+}
+
+.expert-container {
+	font-size: .9rem;
+}
+
+.expert {
+	transform: translateY(30%);
+}
+
+/* botões */
+.botao {
+	padding: 6px 20px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.botao-secundario {
+	border: 1px solid #fff;
+	background-color: #fff;
+	color: #333;
+}
+
+/* rodapé */
+.principal {
+	background: #fff;
+	position: relative;
+	z-index: 1;
+	overflow: hidden;
+	margin-bottom: 240px;
+}
+
+footer {
+	background: #333;
+	position: fixed;
+	z-index: -1;
+	height: 240px;
+	width: 100%;
+	bottom: 0;
+}
+
+.thumb {
+	width: 82px !important;
+	margin: 2px;
+}
+
+/* ajustes bootstrap */
+.nav-link, .navbar-toggler {
+	color: #333 !important;
+}
+
+.fixed-top {
+	transition: background-color 0.4s ease !important;
+}
+
+.card {
+	border: none !important;
+}
+
+	.card i, #links i {
+		font-size: 2.8rem;
+	}
+
+/* ajustes responsivos */
+@media only screen and (max-width: 767px) {
+	h1 {
+		font-size: 1.6rem;
+	}
+
+	h5 {
+		font-size: 1.1rem;
+	}
+
+	section {
+		margin: 20px;
+	}
+
+	.jumbotron {
+		height: 400px;
+		background-image: url("../img/001.jpg");
+		background-attachment: scroll;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	.jumbotron-text {
+		width: 98%;
+	}
+
+	.tela-pequena {
+		display: block;
+	}
+
+	.tela-grande {
+		display: none;
+	}
+
+	.fab {
+		margin-top: 1rem;
+	}
+
+	.expert {
+		transform: translateY(0);
+	}
+
+	.principal {
+		margin-bottom: 540px;
+	}
+
+	footer {
+		height: 540px;
+	}
+
+		footer h5 {
+			margin-top: 1rem;
+		}
+}
+
+@media only screen and (min-width: 768px) {
+	.card {
+		padding: 26px;
+	}
+
+	.tela-pequena {
+		display: none;
+	}
+
+	.tela-grande {
+		display: block;
+	}
+}
