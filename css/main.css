@@ -1,256 +1,87 @@
-﻿@import url('https://fonts.googleapis.com/css?family=Nunito');
+﻿@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
-/* estilos gerais */
 * {
 	padding: 0;
 	margin: 0;
 	outline: none;
 }
 
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+
 body {
-	font-family: 'Nunito', sans-serif;
-	font-size: 1.1rem;
-	color: #333;
-}
-
-section {
-	margin: 50px;
-}
-
-a, a:link {
-	color: #666;
-	text-decoration: none;
-}
-
-	a:hover {
-		color: #333;
-		text-decoration: underline;
-	}
-
-.clear {
-	clear: both;
-}
-
-/* cores */
-.bg-cinza {
-	background-color: #eaeaea;
-}
-
-.cinza {
-	color: #333;
-}
-
-.cinza-claro {
-	color: #999;
-}
-
-.amarelo {
-	color: #8aacf9;
-}
-
-.branco {
-	color: #fff;
-}
-
-/* cabeçalhos */
-h1 {
-	font-size: 2.8rem;
+	background-color: #fff;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
 }
 
 h2 {
-	font-size: 2.3rem;
+	font-size: 24px;
+	font-weight: 400;
+	text-transform: uppercase;
 }
 
-h3 {
-	font-size: 1.9rem;
+a {
+	color: #000;
+	text-decoration: none;
 }
 
-h4 {
-	font-size: 1.6rem;
+i {
+	font-size: 24px;
 }
 
-h5 {
-	font-size: 1.3rem;
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
-h6 {
-	font-size: 1.1rem;
+header ul {
+	list-style: none;
+	display: flex;
+	gap: 64px;
 }
 
-/* navegação e topo */
-.charm {
-	border-top: solid 3px #8aacf9;
-	width: 100%;
+.social {
+	display: flex;
+	gap: 8px;
 }
 
 .jumbotron {
 	height: 740px;
-	background-image: url("../img/001.jpg");
+	background-image: url('../img/001.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
-.jumbotron-text {
-	margin: auto;
-	margin-top: 10rem;
-	width: 100%;
+.margin-40 {
+	margin-top: 40px;
 }
 
-.scrolled {
-	background-color: #8aacf9 !important;
+.margin-80 {
+	margin-top: 80px;
 }
 
-	.scrolled .nav-link {
-		color: #fff !important;
-	}
-
-	.scrolled .navbar-toggler {
-		color: #fff !important;
-	}
-
-.top {
-	font-size: 1.14rem;
-	border-radius: 50%;
+.institucional {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
 }
 
-.social {
-	font-size: 2.2rem !important;
+.institucional div {
+	width: 50%;
 }
 
-/* barra de expertise */
-.fab {
-	font-size: 1.3rem;
-}
-
-.expert-container {
-	font-size: .9rem;
-}
-
-.expert {
-	transform: translateY(30%);
-}
-
-/* botões */
-.botao {
-	padding: 6px 20px;
-	text-align: center;
-	cursor: pointer;
-}
-
-.botao-secundario {
-	border: 1px solid #fff;
-	background-color: #fff;
-	color: #333;
-}
-
-/* rodapé */
-.principal {
-	background: #fff;
-	position: relative;
-	z-index: 1;
-	overflow: hidden;
-	margin-bottom: 240px;
+.institucional p {
+	margin-top: 16px;
 }
 
 footer {
-	background: #333;
-	position: fixed;
-	z-index: -1;
-	height: 240px;
-	width: 100%;
-	bottom: 0;
-}
-
-.thumb {
-	width: 82px !important;
-	margin: 2px;
-}
-
-/* ajustes bootstrap */
-.nav-link, .navbar-toggler {
-	color: #333 !important;
-}
-
-.fixed-top {
-	transition: background-color 0.4s ease !important;
-}
-
-.card {
-	border: none !important;
-}
-
-	.card i, #links i {
-		font-size: 2.8rem;
-	}
-
-/* ajustes responsivos */
-@media only screen and (max-width: 767px) {
-	h1 {
-		font-size: 1.6rem;
-	}
-
-	h5 {
-		font-size: 1.1rem;
-	}
-
-	section {
-		margin: 20px;
-	}
-
-	.jumbotron {
-		height: 400px;
-		background-image: url("../img/001.jpg");
-		background-attachment: scroll;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	}
-
-	.jumbotron-text {
-		width: 98%;
-	}
-
-	.tela-pequena {
-		display: block;
-	}
-
-	.tela-grande {
-		display: none;
-	}
-
-	.fab {
-		margin-top: 1rem;
-	}
-
-	.expert {
-		transform: translateY(0);
-	}
-
-	.principal {
-		margin-bottom: 540px;
-	}
-
-	footer {
-		height: 540px;
-	}
-
-		footer h5 {
-			margin-top: 1rem;
-		}
-}
-
-@media only screen and (min-width: 768px) {
-	.card {
-		padding: 26px;
-	}
-
-	.tela-pequena {
-		display: none;
-	}
-
-	.tela-grande {
-		display: block;
-	}
+	text-align: center;
 }
