@@ -43,7 +43,7 @@
 
 	.jumbotron {
 		height: 420px;
-		background-image: url('../img/001b.jpg');
+		background-image: url('../img/001b.jpg') !important;
 	}
 
 	.institucional {
