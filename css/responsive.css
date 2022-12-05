@@ -65,4 +65,8 @@
 	.show {
 		display: flex !important;
 	}
+
+	.cookies {
+		left: 0;
+	}
 }

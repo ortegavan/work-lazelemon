@@ -90,3 +90,54 @@ header ul {
 footer {
 	text-align: center;
 }
+
+.cookies {
+	width: 360px;
+	background-color: #fff;
+	border-radius: 8px;
+	position: fixed;
+	left: 32px;
+	bottom: 32px;
+	padding: 32px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-between;
+}
+
+.cookies p:first-child {
+	text-align: center;
+}
+
+.cookies i {
+	font-size: 40px;
+	margin-top: 12px;
+}
+
+.cookies button {
+	width: 100%;
+}
+
+.sombra {
+	box-shadow: 2.8px 2.8px 2.2px rgba(0, 0, 0, 0.02),
+		6.7px 6.7px 5.3px rgba(0, 0, 0, 0.028),
+		12.5px 12.5px 10px rgba(0, 0, 0, 0.035),
+		22.3px 22.3px 17.9px rgba(0, 0, 0, 0.042),
+		41.8px 41.8px 33.4px rgba(0, 0, 0, 0.05),
+		100px 100px 80px rgba(0, 0, 0, 0.07);
+}
+
+button {
+	border: none;
+	height: 48px;
+	border-radius: 24px;
+	background-color: #ef3576;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	cursor: pointer;
+}
+
+.hide {
+	display: none;
+}

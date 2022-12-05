@@ -16,3 +16,20 @@ document.querySelector('.mobile-close').addEventListener('click', () => {
 	document.querySelector('.social').classList.remove('show');
 	document.querySelector('.mobile-close').classList.remove('show');
 });
+
+function aceitarCookies() {
+	localStorage.setItem('cookies', '1');
+	document.querySelector('.cookies').classList.add('hide');
+}
+
+(function exibirCookies() {
+	let alias = 'cookies';
+	let cookies;
+
+	if (localStorage.getItem(alias) != null) {
+		cookies = parseInt(localStorage.getItem(alias));
+		if (cookies == 1) {
+			document.querySelector('.cookies').classList.add('hide');
+		}
+	}
+})();
