@@ -92,13 +92,13 @@ footer {
 }
 
 .cookies {
-	width: 360px;
+	width: 300px;
 	background-color: #fff;
 	border-radius: 8px;
 	position: fixed;
-	left: 32px;
-	bottom: 32px;
-	padding: 32px;
+	left: 16px;
+	bottom: 16px;
+	padding: 16px;
 	display: flex;
 	flex-flow: column nowrap;
 	justify-content: space-between;
