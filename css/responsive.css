@@ -1,0 +1,66 @@
+@media screen and (min-width: 1231px) {
+	.mobile-open,
+	.mobile-close {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 1230px) {
+	.mobile-close {
+		display: none;
+		z-index: 1;
+		position: absolute;
+		top: 0;
+		right: 0;
+	}
+
+	header {
+		width: 90% !important;
+		align-items: flex-start !important;
+		position: relative;
+	}
+
+	header ul {
+		flex-direction: column;
+		gap: 32px;
+		background-color: #fff;
+		position: absolute;
+		top: -20px;
+		right: -20px;
+		padding: 32px 32px 100px 32px;
+	}
+
+	.social {
+		position: absolute;
+		top: 216px;
+		right: 146px;
+	}
+
+	nav,
+	.social {
+		display: none;
+	}
+
+	.jumbotron {
+		height: 420px;
+		background-image: url('../img/001b.jpg');
+	}
+
+	.institucional {
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: center;
+	}
+
+	.institucional div {
+		width: 90%;
+	}
+
+	footer {
+		width: 90%;
+	}
+
+	.show {
+		display: flex !important;
+	}
+}
