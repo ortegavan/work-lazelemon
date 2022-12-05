@@ -1,4 +1,4 @@
-![Header](https://github.com/ortegavan/work-lazelemon/blob/5a83c04e37202be3c296d427b07b599af6b637bd/img/readme-header.jpg 'Header')
+![Header][def]
 
 <h2 align="center">
     Laze Lemon
@@ -18,3 +18,5 @@
     Olá!
 </h3>
 Esta é a nova landing page 2023 da Laze Lemon. Você pode vê-la acessando o site em http://www.lazelemon.com.br. Ela foi desenvolvida com HTML5, CSS3 e JavaScript. Caso queira usá-la como inspiração para algum projeto, sinta-se à vontade para clonar este repositório.
+
+[def]: https://github.com/ortegavan/work-lazelemon/blob/d38c68908cccd763af16c9bbd8187ae8aa176a3d/img/readme-header.jpg 'Header'
