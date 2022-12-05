@@ -6,17 +6,22 @@
 	outline: none;
 }
 
+body {
+	background-color: #fff;
+	color: #000;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+
 .container {
 	width: 100%;
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
-body {
-	background-color: #fff;
-	color: #000;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 14px;
+.logo {
+	width: 178px;
+	height: 24px;
 }
 
 h2 {
